@@ -1,0 +1,31 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-bottom: 10px;
+    margin-top: 10px;
+  width: 15%;
+}
+.h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 20px 0 20px;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 20px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 15px;
+    color: #8a9eb3;
+    cursor: pointer;
+    font-size: 25px;
+}
+a:link, a:visited a:active, a:hover {
+    text-decoration: none;
+    color: #8a9eb3;
+    
+}
+
+
+    
