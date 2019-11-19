@@ -1,0 +1,22 @@
+body{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    color: #cd2626;
+    margin: 20px 0 20px;
+}
+.gallery{
+    margin: 70px 50px;
+}
+.gallery img{
+    width: 330px;
+    padding: 5px;
+    filter: saturate(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
